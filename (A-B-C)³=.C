@@ -18,7 +18,7 @@ main()
 	printf("Enter value of c = ");
 	scanf("%f",&c);
 
-	sum= (a*a*a) - (b*b*b) - (c*c*c) - (3*(a+b)*(b+c)*(c+a));
+	sum= (a*a*a) - (b*b*b) - (c*c*c) - (3*(a+b))+(3*(b+c))+(3*(c+a));
 
 
 	printf("a + b + c cube = %.2f",sum);
